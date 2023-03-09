@@ -8,7 +8,8 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Entity
 @Builder
-public class Videogame_platform {
+@Table(name = "videogame_platform")
+public class VideogamePlatform {
     @Id
     @GeneratedValue
     private Long id;

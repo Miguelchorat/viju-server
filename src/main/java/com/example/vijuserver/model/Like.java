@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Entity
 @Builder
+@Table(name = "likes")
 public class Like {
     @Id
     @GeneratedValue
