@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Entity
 @Builder
+@Table(name = "favorites")
 public class Favorite {
 
     @Id
